@@ -1,0 +1,27 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Courses</title>
+</head>
+<body>
+<a href="{% url 'My_index' %}">Home</a>
+<a href="{% url 'my_blog' %}">Blog us</a>
+<a href="{% url 'my_services' %}">Services</a>
+<a href="{% url 'my_about' %}">About us</a>
+<a href="{% url 'my_contact' %}">Contact Us</a>
+<a href="{% url 'my_courses' %}">Courses</a>
+
+<h2>This is my courses page</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad eveniet laborum minus nesciunt ratione sint veniam vitae? Ab accusamus aliquam atque delectus et mollitia qui quia quo repudiandae sapiente.</span><span>Harum nobis quibusdam quo suscipit vero. Architecto asperiores blanditiis fuga incidunt ipsam ipsum necessitatibus quae temporibus. Doloribus eius expedita numquam quia tempore totam, vero! Aliquid dicta ea esse iste nobis.</span><span>Accusamus cum eaque reprehenderit voluptatem. Aspernatur dolore doloribus, earum eos est et facere harum itaque labore minus officiis quos recusandae repellendus repudiandae rerum sapiente tenetur unde. Aliquam ipsa quae ullam?</span></p>
+<img src="{% static 'images/course-1.jpg' %}" style="width: 300px">
+<img src="{% static 'images/course-2.jpg' %}" style="width: 300px">
+<img src="{% static 'images/course-3.jpg' %}" style="width: 300px">
+
+</body>
+</html>

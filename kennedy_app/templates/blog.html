@@ -1,0 +1,23 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+</head>
+<body>
+<a href="{% url 'My_index' %}">Home</a>
+<a href="{% url 'my_blog' %}">Blog us</a>
+<a href="{% url 'my_services' %}">Services</a>
+<a href="{% url 'my_about' %}">About us</a>
+<a href="{% url 'my_contact' %}">Contact Us</a>
+<a href="{% url 'my_courses' %}">Courses</a>
+
+<h2>This is the blog page</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem consequuntur deserunt doloremque eaque eos iure laboriosam, laborum laudantium nam natus nulla quia ullam veritatis voluptate? Alias dolores eius quas.</span><span>Laborum minus nisi voluptas voluptatum! Aliquam animi aperiam aut eius hic id libero odio quidem reiciendis repellat, sequi tempora temporibus veritatis? Accusantium aliquid architecto deserunt doloremque exercitationem nihil, nobis quasi.</span><span>Accusamus amet aperiam asperiores beatae commodi cum dicta dignissimos dolorem, enim expedita, facilis fuga illum maxime molestias necessitatibus non nulla optio possimus provident quaerat, quisquam ratione ullam vero voluptas voluptatum?</span></p>
+</body>
+</html>
